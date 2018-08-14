@@ -1,0 +1,30 @@
+https://earray.chem.agilent.com/suredesign/help/WebHelp.htm#Target_enrichment_design_files_available_for_download.htm
+
+BED files
+
+The three BED-format track files that SureDesign creates for each custom SureSelect design are described below. You can import these files into a compatible genome browser to graphically view the locations of the tracks in the genome. For detailed information on the tracks and how they can help you analyze your design, see Design analysis using tracks.
+
+[design ID]_Regions.bed - This BED file contains a single track of the target regions of interest that SureDesign used to select the probes. You can use this track to see the exact regions that the program was attempting to cover when selecting the probes.
+
+[design ID]_Covered.bed - This BED file contains a single track of the genomic regions that are covered by one or more probes in the design. The fourth column of the file contains annotation information. You can use this file for assessing coverage metrics.
+
+[design ID]_AllTracks.bed - This multitrack BED file includes the following tracks:
+
+·        The Target Regions track is identical to the track in the Regions BED file.
+
+·        The Covered probes track is identical to the track in the Covered BED file.
+
+·        The Missed Regions track contains any regions from the Target Regions track that are not included in the Covered probes track.
+
+·        The Probes track contains the regions of all probes in the design.
+Text files
+
+The three text files for a custom SureSelect design are described below. You can view these files in any text editor program (e.g. NotePad) or spreadsheet program (e.g. Excel). Any tables embedded in the text files are tab-delimited and contain column headers. Lines of text that start with a # character are comment lines.
+
+[design ID]_Targets.txt - This file contains a list of the target identifiers that you entered when creating the design.
+
+[design ID]_Probes.txt - This file is a list of the probes in the design, with specific information about each probe, including its probe ID, sequence, genomic coordinates, and the target it is intended to capture.
+
+Note that a probe may be listed in the Probes text file multiple times if it covers multiple targets. This can occur if the target identifiers you entered map to overlapping regions or are synonyms for the same gene (e.g. HER2 and ERBB2). Although these probes are listed multiple times in the file, they are not replicated in the design.
+
+[design ID]_Report.txt - This file contains summary information on the design, the probes, the targets, and the parameters used to create the design.
