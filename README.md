@@ -1,5 +1,5 @@
 # BARMEN welcome you !
-- [BARMEN - The BenchmARking from Mobidic for Exome sequencing at Nucleotide scale ](#BARMEN-welcome-you!)
+- [BARMEN - The BenchmARking from Mobidic for Exome sequencing at Nucleotide scale](#BARMEN-welcome-you!)
 	- [Overview](#overview)
 		- [Main Workflow](#main-workflow)
 		- [Citing BARMEN](#citing-molludic)
@@ -17,22 +17,36 @@ The BenchmARking from Mobidic for Exome sequencing at Nucleotide scale aims to c
 - Coverage of RefSeq Coding regions
 - In silico design analysis
 
-# Overview
+## Overview
 
-## Main workflow
+### Main workflow
 
 For performance benchmark, we use the capture targets bed (and not the empirical or covered bed).
 
-##  Citing BARMEN
+###  Citing BARMEN
 
 > *Pegeot et al.*, BARMEN : Benchmarking from Mobidic for Whole Exome sequencing at Nucleotide scale (2019).
 
-## Input
+### Input
 
-## Output
+### Output
 
-# Installation
+## Installation
 
-## Requirements 
+### Requirements 
 
-# BARMEN command
+## BARMEN command
+
+--------------------------------------------------------------------------------
+
+**Montpellier Bioinformatique pour le Diagnostique Clinique (MoBiDiC)**
+
+*CHU de Montpellier*
+
+France
+
+![MoBiDiC](logo-mobidic.png)
+
+[Visit our website](https://neuro-2.iurc.montp.inserm.fr/mobidic/)
+
+--------------------------------------------------------------------------------
