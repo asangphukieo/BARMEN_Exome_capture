@@ -8,14 +8,18 @@
 	- [Installation](#installation)
 		- [Requirements](#requirements)
 	- [BARMEN command](#BARMEN-command)
+		- [In silico design analysis](#in-silico-design-analysis)
+		- [ClinVar pathogenic variant coverage](#clinvar-pathogenic-variant-coverage)
+		- [Gene Panel coverage](#gene-panel-coverage)
+		- [RefSeq Coding regions coverage](#refseq-coding-regions-coverage)	
 
 -----------
 
 The BenchmARking from Mobidic for Exome sequencing at Nucleotide scale aims to compare recent Whole Exome capture library performance with several items : 
+- In silico design analysis
 - Coverage of ClinVar pathogenic variants 
 - Coverage of gene panel sequencing routine diagnosis
 - Coverage of RefSeq Coding regions
-- In silico design analysis
 
 ## Overview
 
@@ -33,9 +37,29 @@ For performance benchmark, we use the capture targets bed (and not the empirical
 
 ## Installation
 
+To download scripts of BARMEN, please use git to download the most recent development tree.
+Currently, the tree is hosted on github, and can be obtained via:
+
+```bash
+$ git clone https://github.com/mobidic/BARMEN.git
+```
+
 ### Requirements 
 
+Linux or macOS
+bedtools v2.27.1
+
+
+
 ## BARMEN command
+
+### In silico design analysis
+
+### ClinVar pathogenic variant coverage
+
+### Gene Panel coverage
+
+### RefSeq Coding regions coverage
 
 --------------------------------------------------------------------------------
 
