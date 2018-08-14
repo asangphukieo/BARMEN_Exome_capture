@@ -57,12 +57,14 @@ $ git clone https://github.com/mobidic/BARMEN.git
 
 - Linux or macOS
 - bedtools v2.27.1
-
+- picard 
 
 
 ## BARMEN command
 
 ### In silico design analysis
+
+### Raw Metrics
 
 ### ClinVar pathogenic variant coverage
 
