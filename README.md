@@ -21,11 +21,20 @@ The BenchmARking from Mobidic for Exome sequencing at Nucleotide scale aims to c
 - Coverage of gene panel sequencing routine diagnosis
 - Coverage of RefSeq Coding regions
 
+Capture library benchmark include : 
+- Nimblegen MedExome 
+- Agilent SureSelect V7
+- Agilent Clinical Research Exome V2
+
 ## Overview
 
 ### Main workflow
 
 For performance benchmark, we use the capture targets bed (and not the empirical or covered bed).
+
+- MedExome_hg19_capture_targets.bed : MedExome capture target intervals converted to UCSC human genome build hg19 using the NCBI Genome Remapping Service.
+
+- Agilent for SureSelect Clinical Research Exome V7 and SureSelect Human All Exon V7  [design ID]_Regions.bed : This BED file contains a single track of the target regions of interest that SureDesign used to select the probes. You can use this track to see the exact regions that the program was attempting to cover when selecting the probes.
 
 ###  Cite BARMEN
 
