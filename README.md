@@ -2,12 +2,12 @@
 - [BARMEN - The BenchmARking from Mobidic for Exome sequencing at Nucleotide scale](#BARMEN-welcome-you!)
 	- [Overview](#overview)
 		- [Main Workflow](#main-workflow)
-		- [Citing BARMEN](#citing-molludic)
+		- [Cite BARMEN](#cite-barmen)
 		- [Input](#input)
 		- [Output](#output)
 	- [Installation](#installation)
 		- [Requirements](#requirements)
-	- [BARMEN command](#BARMEN-command)
+	- [BARMEN command](#barmen-command)
 		- [In silico design analysis](#in-silico-design-analysis)
 		- [ClinVar pathogenic variant coverage](#clinvar-pathogenic-variant-coverage)
 		- [Gene Panel coverage](#gene-panel-coverage)
@@ -27,7 +27,7 @@ The BenchmARking from Mobidic for Exome sequencing at Nucleotide scale aims to c
 
 For performance benchmark, we use the capture targets bed (and not the empirical or covered bed).
 
-###  Citing BARMEN
+###  Cite BARMEN
 
 > *Pegeot et al.*, BARMEN : Benchmarking from Mobidic for Whole Exome sequencing at Nucleotide scale (2019).
 
@@ -46,8 +46,8 @@ $ git clone https://github.com/mobidic/BARMEN.git
 
 ### Requirements 
 
-Linux or macOS
-bedtools v2.27.1
+- Linux or macOS
+- bedtools v2.27.1
 
 
 
